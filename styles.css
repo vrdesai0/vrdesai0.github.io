@@ -629,3 +629,19 @@ textarea {
         transform: scaleX(1.3) rotateY(180deg) skewY(33deg) translateZ(0px);
     }
 }
+
+.med {
+    visibility: hidden;
+    display: none;
+    text-align: center;
+}
+
+@media only screen and (max-width:1200px) {
+    .container {
+        visibility: hidden;
+    }
+    .med {
+        visibility: visible;
+        display: block;
+    }
+}
